@@ -21,7 +21,7 @@ Android
 ---
 
 ###  Usage
-
+```
 import { Mongodb } from 'ionic-native-mongodb';
 
 constructor(private mongodb: Mongodb) { }
@@ -61,7 +61,7 @@ try {
 } catch (error) {
   console.log(error);
 }
-
+```
 ###  Instance Members
 #### initiate(`appId: string`) 
 This function has to be called before doing anything else, this is a mongodb mobile requirement.
