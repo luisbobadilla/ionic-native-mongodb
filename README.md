@@ -8,11 +8,10 @@ Repo: https://github.com/luisbobadilla/ionic-native-mongodb
 ###  Installation
 
 #### Install the Cordova and Ionic Wrapper plugins:
-$ ionic cordova plugin add gudsi-plugin-mongodb
+```
+$ ionic cordova plugin add gudsi-mongodb-plugin
 $ npm install --save ionic-native-mongodb
-
-#### Add this plugin to your app's module
-import { Mongodb } from 'ionic-native-mongodb';
+```
 
 ###  Supported platforms
 
